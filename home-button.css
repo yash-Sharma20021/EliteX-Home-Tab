@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://th.bing.com/th/id/R.972f5d2ed9074863768e3c94085bbef2?rik=r9Ll7lvT9SeQjg&riu=http://getwallpapers.com/wallpaper/full/2/5/2/568829.jpg&ehk=5UEGwNt5ilSNPPk54txnugw9x8KiQa1Pe9pIk8gD52A=&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header{
+    background-color: #171717;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container button{
+    padding: 8px 18px;
+    border: none;
+    background-color: greenyellow;
+    color:#333;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease , box-shadow 0.3s ease;
+}
+
+.search-container button:hover{
+    background-color: yellow;
+}
+
+.logo{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+    transform: scale(1.05);
+    text-shadow: 0 4px 8px greenyellow;
+}
+
+.text-overlay{
+    font-style: italic;
+    position: relative;
+    height: 100vh;/* full height of the viewpoint */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+}
+
+.overlay-text{
+    font-size: 36px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button_explore a{
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(19, 20, 15, 0.911);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button_explore{
+    margin-bottom: 20px;
+}
+
+.button_explore a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px greenyellow;
+    background-color: greenyellow;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
